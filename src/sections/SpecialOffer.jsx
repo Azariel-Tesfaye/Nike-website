@@ -1,6 +1,29 @@
+import { arrowRight } from "../assets/icons"
+import { offer } from "../assets/images"
+import Button from "../components/Button"
+
 const SpecialOffer = () => {
   return (
-    <div>SpecialOffer</div>
+    <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container">
+      <div className="flex-1">
+        <img src={offer}width={773} height={687} 
+            className="object-contain w-full"/>
+      </div>
+      <div className="flex  flex-col flex-1">
+          <h2 className="text-4xl font-palanquin font-bold lg:max-w-lg"><span className="text-coral-red">Special</span> Offer</h2>
+          <p className="lg:max-w-lg mt-4 info-text"> Embark on a shopping journey that redefines your experience with
+            unbeaable deals. From premier selections to incredible savings, we offer unparalled value that sets us apart. <br />
+
+            Navigate a realm of possibilities designed to fulfill your unique desires surpassing the loftiest expectations. Your journey with us is nothing
+            short of exceptional
+          </p>
+          <div className="mt-9 flex flex-wrap gap-4">
+            <Button label="Shop now" iconURL={arrowRight}/>
+            <Button label="learn more" backgroundColor="bg-white" borderColor="border-slate-gray" textColor="text-slate-gray"/>
+
+          </div>
+        </div>
+    </section>
   )
 }
 
