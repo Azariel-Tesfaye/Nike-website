@@ -1,8 +1,23 @@
-# React + Vite
+# Nike Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Vist the Site here https://nike-azi-design.netlify.app/
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a web application for Nike. The application is built with modern web development technologies and is designed to be fast, responsive, and user-friendly.
+
+This project is done for practice purpose only
+
+## Features
+
+- Responsive design for different screen sizes
+- Modern JavaScript (ES6+) usage
+- Modular code structure
+- Efficient asset loading
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/nike-web-app.git
